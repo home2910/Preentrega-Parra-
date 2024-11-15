@@ -226,3 +226,74 @@ footer{
     color: white;
     
 }
+
+
+@media (max-width: 800px){
+    main {
+        color: white;
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 175px;
+    }
+
+    .navbar ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .navbar ul li{
+       padding: 2px;
+    } 
+    
+    
+    .stack ul li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 20px;
+    }
+    
+    .stack ul li img{
+        width: 60px;
+        
+    }
+    
+    .html{
+        grid-area: html;
+    }
+    
+    .css{
+     grid-area: css;
+    }
+    
+    .js{
+    grid-area: js;
+    }
+    
+    .tailwind{
+    grid-area: tailwind;
+    }
+    
+    .sass{
+    grid-area: sass;
+    }
+    
+    .react{
+    grid-area: react;
+    }
+    
+    .bs{
+    grid-area: bs;
+    }
+    
+    .py{
+    grid-area: py;
+    }
+    
+
+}
